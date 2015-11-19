@@ -1,0 +1,59 @@
+[Sunday Nov 15 11:06:34 2015] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Sunday Nov 15 11:06:34 2015]          Dragon Age Toolset v1.01.998.29 installer ran
+[Sunday Nov 15 11:06:34 2015] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Sunday Nov 15 11:06:34 2015] .onInit
+[Thursday Nov 19 10:32:37 2015] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Thursday Nov 19 10:32:37 2015]          Dragon Age Toolset v1.01.998.29 installer ran
+[Thursday Nov 19 10:32:37 2015] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Thursday Nov 19 10:32:37 2015] .onInit
+[Thursday Nov 19 10:32:37 2015] Dragon Age possibly found at: C:\Program Files (x86)\Origin Games\Dragon Age\
+[Thursday Nov 19 10:32:37 2015] Dragon Age install found: C:\Program Files (x86)\Origin Games\Dragon Age\
+[Thursday Nov 19 10:32:37 2015] estimated InstallSize=2222482
+[Thursday Nov 19 10:32:38 2015] onBWGuiInit start
+[Thursday Nov 19 10:32:38 2015] Detected OS: Win7 Service Pack 1
+[Thursday Nov 19 10:32:38 2015] DA startmenu location in registry: 
+[Thursday Nov 19 10:32:38 2015]  - not found, defaulting to 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dragon Age Origins'
+[Thursday Nov 19 10:32:39 2015] User admin status: Admin
+[Thursday Nov 19 10:32:39 2015] Welcome page init
+[Thursday Nov 19 10:32:45 2015] License page init
+[Thursday Nov 19 10:32:50 2015] Confirm directory page init
+[Thursday Nov 19 10:32:52 2015] Database page init
+[Thursday Nov 19 10:32:59 2015] InstallFiles page init
+[Thursday Nov 19 10:32:59 2015] Main install section
+[Thursday Nov 19 10:32:59 2015] Starting file install to C:\Program Files (x86)\Origin Games\Dragon Age
+[Thursday Nov 19 10:32:59 2015] installing - packages\*.*
+[Thursday Nov 19 10:33:50 2015] installing - tools\*.*
+[Thursday Nov 19 10:35:28 2015] File install complete.
+[Thursday Nov 19 10:35:28 2015] Adding Firewall Exception 'Dragon Age Toolset', path: 'C:\Program Files (x86)\Origin Games\Dragon Age\\tools\DragonAgeToolset.exe'.
+[Thursday Nov 19 10:35:31 2015] Adding Firewall Exception 'Dragon Age Toolset RPU', path: 'C:\Program Files (x86)\Origin Games\Dragon Age\\tools\RPU.exe'.
+[Thursday Nov 19 10:35:34 2015] Adding Firewall Exception 'Dragon Age Toolset Lightmapper', path: 'C:\Program Files (x86)\Origin Games\Dragon Age\\tools\lightmapper\eclipseRay.exe'.
+[Thursday Nov 19 10:35:35 2015] Adding Firewall Exception 'Dragon Age Toolset GFF editor', path: 'C:\Program Files (x86)\Origin Games\Dragon Age\\tools\GffEditor.exe'.
+[Thursday Nov 19 10:35:35 2015] Adding Firewall Exception 'Dragon Age Toolset ERF editor', path: 'C:\Program Files (x86)\Origin Games\Dragon Age\\tools\ErfEditor.exe'.
+[Thursday Nov 19 10:35:36 2015] Registering C:\Program Files (x86)\Origin Games\Dragon Age\tools\Engine.dll with Windows - no longer waiting for it to complete. Hail Mary, full of grace...
+[Thursday Nov 19 10:35:40 2015] 'regsvr32.exe' call complete.
+[Thursday Nov 19 10:35:40 2015] Updating FaceFX registry path
+[Thursday Nov 19 10:35:40 2015] Updating FaceFX INI settings
+[Thursday Nov 19 10:35:40 2015] Setting up RPU registry entry
+[Thursday Nov 19 10:35:40 2015] InstallMSSQLExpress=true
+[Thursday Nov 19 10:35:40 2015] Calling InstallMSSQLExpress
+[Thursday Nov 19 10:35:40 2015] Installing Microsoft SQL Server 2005 Express SP3
+[Thursday Nov 19 10:35:40 2015] creating directory - C:\Program Files (x86)\DAODB
+[Thursday Nov 19 10:35:40 2015] C:\Program Files (x86)\Origin Games\Dragon Age\tools\sqlexpr\setup.exe /qb ADDLOCAL=ALL INSTANCENAME=BWDATOOLSET INSTALLSQLDIR="C:\Program Files (x86)\DAODB"
+[Thursday Nov 19 10:42:11 2015] MSSQL server install success
+[Thursday Nov 19 10:42:11 2015] Setting up content database - creating C:\Program Files (x86)\DAODB\Data
+[Thursday Nov 19 10:42:11 2015] ExecWait cacls "C:\Program Files (x86)\DAODB\Data" /E /G "Network Service:C"
+[Thursday Nov 19 10:42:12 2015]  - result = 0
+[Thursday Nov 19 10:42:12 2015] Calling a very long and complex 'SQLCMD.EXE' with DatabaseServer=.\BWDATOOLSET ; DatabaseName=bw_dragonage_content ; target=C:\Program Files (x86)\DAODB\Data\
+[Thursday Nov 19 10:43:08 2015]  - result = 0
+[Thursday Nov 19 10:43:08 2015] Setting up database connections
+[Thursday Nov 19 10:43:08 2015] Creating initial Start Menu location - C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dragon Age Origins
+[Thursday Nov 19 10:43:08 2015] Creating main Toolset start menu shortcut - C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dragon Age Origins\Dragon Age Toolset.lnk ; C:\Program Files (x86)\Origin Games\Dragon Age\\tools\DragonAgeToolset.exe
+[Thursday Nov 19 10:53:26 2015] Main install section - END
+[Thursday Nov 19 10:53:31 2015] Finish page init
+[Thursday Nov 19 10:53:31 2015] Removing mutexes
+[Thursday Nov 19 10:53:31 2015] Finish page show
+[Thursday Nov 19 10:53:32 2015] .onGUIEnd
+[Thursday Nov 19 10:53:32 2015] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Thursday Nov 19 10:53:32 2015] |           Dragon Age Toolset finished
+[Thursday Nov 19 10:53:32 2015] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
